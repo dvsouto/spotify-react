@@ -1,0 +1,23 @@
+.player {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  background-color: transparent;
+}
+
+.music {
+  flex: 0.2;
+  align-self: center;
+}
+
+.player-controller {
+  flex: 0.6;
+  align-self: center;
+}
+
+.buttons {
+  flex: 0.2;
+  align-self: center;
+}

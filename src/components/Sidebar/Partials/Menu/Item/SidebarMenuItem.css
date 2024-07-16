@@ -1,0 +1,11 @@
+.menu-item {
+  @apply mb-2 self-stretch text-left justify-start items-center !important;
+}
+
+.menu-item:last-of-type {
+  @apply mb-0;
+}
+
+.menu-item-label {
+  @apply ml-4 text-sm font-bold;
+}

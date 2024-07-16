@@ -1,0 +1,11 @@
+.sidebar-block {
+  @apply bg-background mb-[6px] flex-1 rounded-[10px] pt-[12px] pb-[12px] pl-[6px] pr-[6px];
+}
+
+.sidebar-block:last-of-type {
+  @apply mb-0;
+}
+
+/* .sidebar-block:first-of-type {
+  margin-top: 0px;
+} */

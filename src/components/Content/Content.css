@@ -1,0 +1,7 @@
+.content {
+  @apply min-h-[300px] h-full justify-center bg-transparent flex box-border;
+}
+
+.content > .content-scroll {
+  @apply bg-gradient-to-b from-[#16323b] from-10% to-70% to-background h-full overflow-y-auto rounded-lg p-3;
+}
