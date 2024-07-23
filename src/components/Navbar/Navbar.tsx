@@ -2,7 +2,7 @@ import { NavbarButton } from "./Partials/Button/NavbarButton";
 
 const Navbar = () => {
   return (
-    <div className="flex mb-4">
+    <nav className="flex mb-4">
       <div className="flex-[0.3] items-start">
         <NavbarButton icon="ArrowLeft" />
         <NavbarButton icon="ArrowRight" />
@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavbarButton icon="Bell" />
         <NavbarButton icon="User" />
       </div>
-    </div>
+    </nav>
   ); 
 };
 

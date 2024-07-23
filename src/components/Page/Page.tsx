@@ -13,7 +13,7 @@ const Page = ({ children }: React.PropsWithChildren) => {
         <div className="left">
           <Sidebar>
             <Sidebar.Menu className="flex-[0]">
-              <Sidebar.MenuItem icon={"House"} text="Início" />
+              <Sidebar.MenuItem icon={"House"} text="Início" active />
               <Sidebar.MenuItem icon={"Search"} text="Buscar" />
             </Sidebar.Menu>
               
@@ -32,7 +32,7 @@ const Page = ({ children }: React.PropsWithChildren) => {
         <PlayerBar />
       </footer>
     </section>
-    ); 
+  ); 
 };
 
 export {

@@ -1,13 +1,17 @@
 import { Page } from "@components/Page";
 import "./Home.css";
+import { PlaylistCard } from "@components/PlaylistCard/PlaylistCard";
 
 const Home = () => {
   return (
     <Page>
-      <div>
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis qui, asperiores, dignissimos voluptatem error pariatur corporis odit quidem, id magni soluta? Iure placeat illum totam dicta exercitationem qui quaerat quisquam.</p>
-        </div>
+      <div className="flex flex-wrap">
+        <PlaylistCard name="Playlist name" />
+        <PlaylistCard name="Eletrônica" />
+        <PlaylistCard name="Rap" />
+        <PlaylistCard name="Racionais" />
+        <PlaylistCard name="MPB" />
+        <PlaylistCard name="Techno & Techouse" />
       </div>
     </Page>
   );

@@ -1,7 +1,4 @@
-import { Button } from "@components/ui/button";
 import { icons } from "lucide-react";
-
-import "./PlayerBarAction.css";
 
 const PlayerBarAction = ({ icon }: { icon?: keyof typeof icons }) => {
   const renderIcon = () => {
@@ -13,14 +10,12 @@ const PlayerBarAction = ({ icon }: { icon?: keyof typeof icons }) => {
   };
 
   return (
-    <div className="player-bar-action">
-      <Button 
-        variant={"link"} 
-        size={"icon"}
-        className="px-2 py-0"
+    <div className="p-0 m-0">
+      <button 
+        className="p-1 m-0 text-gray-400 hover:text-white transition-all"
       >
         { renderIcon() }
-      </Button>
+      </button>
     </div>
   );
 };

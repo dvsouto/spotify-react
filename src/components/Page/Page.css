@@ -9,6 +9,7 @@
   max-height: 100vh;
   background-color: black;
   overflow: hidden;
+  min-width: 800px;
 }
 
 .top {

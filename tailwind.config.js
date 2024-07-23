@@ -20,6 +20,10 @@ export default {
         "primary": "#1FD760",
         "font": "#A7A7A7"
       },
+      flex: {
+        "1-1-50": "1 1 50%",
+        "1-1-30": "1 1 30%"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
