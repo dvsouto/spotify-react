@@ -2,6 +2,9 @@
 
 This repository was developed as a learning project. It aims to explore and demonstrate various technical skills and concepts. Please note that this project has no official affiliation or connection with Spotify.
 
+![Print](./docs/layout-print-2024-07-23.png)
+
+
 Powered by:
 - React (v18)
 - TypeScript (Node v18.20.4 + TS v5.2.2)
